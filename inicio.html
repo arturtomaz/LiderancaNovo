@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Liderança – Administradora de Condomínios</title>
+	<link rel="icon" href="./media/icon-lua.png" />
+	<link rel="stylesheet" href="./style.css" />
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+	</style>
+</head>
+
+<body>
+	<div class="barra-topo">
+		<div class="barra-topo-area">
+			<p class="CRA">CRA/SC 0000</p>
+			<a href="tel:4832414413" class="phone-barra-topo">
+				<img src="./media/telefone.png" alt="Telefone: " />(48) 3241-4413
+			</a>
+			<div href="" class="whatsapp-barra-topo">
+				<img src="./media/whastapp.png" alt="Whatsapp: " />
+				<p id="selectable" onclick="selectText('selectable')">
+					(48) 0 0000-0000
+				</p>
+			</div>
+		</div>
+	</div>
+	<header>
+		<div class="container">
+			<div class="logo-area">
+				<a href="./index.html"><img src="./media/logo-header.png" alt="logo da empresa" /></a>
+			</div>
+			<div class="menu-area">
+				<nav>
+					<div class="menu-mobile"></div>
+					<!--FAZER MENU MOBILE-->
+					<ul>
+						<a href="" class="link-menu active">
+							<li>INÍCIO</li>
+						</a>
+						<a href="" class="link-menu">
+							<li>EMPRESA</li>
+						</a>
+						<a href="" class="link-menu">
+							<li>SERVIÇOS</li>
+						</a>
+						<a href="" class="link-menu">
+							<li>NOTÍCIAS</li>
+						</a>
+						<a href="" class="link-menu">
+							<li>TEXTO?</li>
+						</a>
+						<a href="" class="link-menu">
+							<li>CONTATO</li>
+						</a>
+					</ul>
+				</nav>
+			</div>
+			<div class="winker-area">
+				<a href="" class="winker-button">CONDOMÍNIO ONLINE</a>
+			</div>
+		</div>
+	</header>
+
+	<!--Foto Grande-->
+	<section class="entrada"></section>
+
+	<!--Quadrados-->
+	<section id="empresa">
+		<div class="container">
+			<div class="fundo-quadrados">
+				<div class="quadrado">
+					<img src="" alt="Imagem" />
+					<h1>Texto</h1>
+					<div class="barrinha-azul"></div>
+					<h3>Texto</h3>
+				</div>
+				<div class="quadrado">
+					<img src="" alt="Imagem" />
+					<h1>Texto</h1>
+					<div class="barrinha-azul"></div>
+					<h3>Texto</h3>
+				</div>
+				<div class="quadrado">
+					<img src="" alt="Imagem" />
+					<h1>Texto</h1>
+					<div class="barrinha-azul"></div>
+					<h3>Texto</h3>
+				</div>
+				<div class="quadrado">
+					<img src="" alt="Imagem" />
+					<h1>Texto</h1>
+					<div class="barrinha-azul"></div>
+					<h3>Texto</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--SLIDES-->
+	<section class="banner">
+		<div class="sliders">
+			<div class="slider-controls">
+				<div class="slider-control" onclick="goPrev()">
+					<img src="./media/seta.png" alt="voltar" style="rotate: 180deg" />
+				</div>
+				<div class="slider-control" onclick="goNext()">
+					<img src="./media/seta.png" alt="próximo" />
+				</div>
+			</div>
+			<div class="slider-width">
+				<div class="slide">
+					<div class="slidearea" style="background-image: url(./media/especialistas-em-gestao.png)"></div>
+				</div>
+				<div class="slide">
+					<div class="slidearea" style="background-image: url(./media/especialistas-em-gestao.png)"></div>
+				</div>
+				<div class="slide">
+					<div class="slidearea" style="background-image: url(./media/especialistas-em-gestao.png)"></div>
+				</div>
+			</div>
+			<div class="sliders-pointers"></div>
+		</div>
+	</section>
+
+	<!--Avaliações-->
+	<section class="avaliacoes-area">
+		<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+		<div class="container">
+			<div class="elfsight-app-f5a9a0a9-cb6f-4626-bfc6-4f536ab3fdff avaliacoes" data-elfsight-app-lazy
+				loading="lazy"></div>
+		</div>
+	</section>
+	<section class="mapa-area">
+		<iframe
+			src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14143.15990327012!2d-48.6084896!3d-27.6000403!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527362f84850953%3A0x61559b2512b2a4f6!2sLideran%C3%A7a%20Administradora%20de%20Condom%C3%ADnios!5e0!3m2!1spt-BR!2sbr!4v1724111801471!5m2!1spt-BR!2sbr"
+			width="100%" height="450px" style="border: 0" allowfullscreen="" loading="lazy"
+			referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+	</section>
+	</section>
+	<footer>
+
+		<div class="barra-baixo">
+			<p class="creditos">
+				Liderança Administradora de Condomínios © 2024 . Todos os direitos
+				são reservados . Desenvolvido por <a href="https://www.linkedin.com/in/arturtomaz" class="criador"
+					target="_blank">Artur Tribeck</a> em HTML, CSS e
+				Javascript.
+		</div>
+		</div>
+	</footer>
+
+	<script src="./script.js"></script>
+</body>
+
+</html>

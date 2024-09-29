@@ -1,0 +1,319 @@
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+  font-family: "Inter";
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  letter-spacing: 1px;
+  overflow-x: hidden;
+}
+
+/*Barra Topo*/
+.barra-topo {
+  background-color: #364d77;
+  width: 100vw;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+}
+.barra-topo-area {
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #eee;
+}
+.CRA {
+  margin-right: 30px;
+}
+.phone-barra-topo {
+  color: #eee;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.phone-barra-topo img {
+  width: 20px;
+  height: auto;
+  margin-right: 5px;
+}
+.whatsapp-barra-topo {
+  color: #eee;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.whatsapp-barra-topo img {
+  width: 20px;
+  height: auto;
+  margin-right: 5px;
+}
+.whatsapp-barra-topo p {
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 125px;
+  background-color: #eee;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.container {
+  width: 80vw;
+  height: inherit;
+  display: flex;
+}
+
+/*Logo         288x*/
+.logo-area {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18.75%;
+}
+.logo-area img {
+  width: 100%;
+  height: auto;
+  transition: 150ms linear;
+}
+.logo-area img:hover {
+  transform: scale(1.005);
+  opacity: 80%;
+}
+
+/*Menu*/
+.menu-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 62.5%;
+}
+.menu-area nav ul {
+  list-style: none;
+  display: flex;
+  width: auto;
+}
+.menu-area ul .active {
+  text-decoration: none;
+  font-size: 18px;
+  color: #eee;
+  background-color: #029ad7;
+}
+.link-menu {
+  text-decoration: none;
+  font-size: 18px;
+  color: #444;
+  transition: 150ms linear;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 10px;
+}
+.link-menu:hover {
+  text-decoration: none;
+  font-size: 18px;
+  color: #eee;
+  background-color: #029ad7;
+  transform: scale(1.07);
+}
+
+/*Botão Winker*/
+.winker-area {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 18.75%;
+}
+.winker-button {
+  text-decoration: none;
+  background-color: #f62;
+  border-radius: 7px;
+  border: none;
+  color: #fff;
+  letter-spacing: 1px;
+  cursor: pointer;
+  padding: 8px;
+  transition: 200ms linear;
+}
+.winker-button:hover {
+  transform: scale(1.05);
+  background-color: #364d77;
+}
+
+/*entrada*/
+.entrada {
+  background-color: #333;
+  height: calc(100vh - 170px);
+  width: 100vw;
+  background-image: url(./media/especialistas-em-gestao.png);
+  background-size: cover;
+}
+
+/*quadrados*/
+#empresa {
+  width: inherit;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  background-color: #ddd;
+}
+.fundo-quadrados {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.quadrado {
+  background-color: #fff;
+  height: 350px;
+  width: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.quadrado .barrinha-azul {
+  width: 70px;
+  height: 3px;
+  background-color: #029ad7;
+  border: none;
+}
+.quadrado h1 {
+  font-size: 45px;
+  color: #364d77;
+}
+.quadrado h3 {
+  font-weight: lighter;
+  font-size: 25px;
+  color: #888;
+}
+
+/*Slides*/
+section {
+  display: block;
+}
+
+.banner {
+  background-color: #333;
+  height: calc(100vh - 170px);
+  width: auto;
+  background-image: url(./media/Banner.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.sliders {
+  z-index: 97;
+  height: 100%;
+  width: 100vw;
+  opacity: 0;
+  overflow: hidden;
+  transition: all ease 1.2s;
+  margin-left: 4000px;
+}
+.slider-width {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  transition: all ease 0.5s;
+}
+.slide {
+  width: 100vw;
+  height: 100%;
+  display: inline-block;
+}
+.slidearea {
+  width: 100vw;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  transform: scale(0.7);
+}
+.slider-controls {
+  position: absolute;
+  z-index: 98;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.slider-control {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(256, 256, 256, 0.6);
+  border-radius: 50%;
+}
+.slider-control img {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.banner .sliders-pointers {
+  width: 100vw;
+  height: 20px;
+  position: absolute;
+  margin-top: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner .sliders .sliders-pointers .pointer {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #029ad7;
+  border-radius: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  z-index: 99;
+}
+.ativado {
+  background-color: #029ad7;
+}
+
+/*área de avaliações*/
+.avaliacoes-area {
+  width: 100vw;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.avaliacoes {
+  width: 100%;
+}
+/*google maps*/
+.mapa-area {
+  width: 100vw;
+  margin-bottom: -4px;
+}
+
+/*rodapé - footer*/
+
+.barra-baixo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #364d77;
+  color: #eee;
+}
+.criador {
+  text-decoration: none;
+  color: inherit;
+}
+.criador:hover {
+  text-decoration: underline;
+}

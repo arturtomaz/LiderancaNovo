@@ -1,0 +1,91 @@
+produção:
+- escolher tópicos do menu
+    - 1. Início
+    - 2. Serviços
+    - 3. Blog, Artigos, Dicas, Notícias, Atualizações
+    - 4. 
+    - 5. Contato, Fale Conosco
+    - 6. Empresa
+- organograma (funções da empresa)
+    - "cabeças" de cada área
+
+
+finalmentes:
+- tópicos abrindo em mais tópicos (https://www.devmedia.com.br/menu-em-css-menu-dropdown-horizontal-com-html5-e-css3/37205)
+    - isso se não for landing page
+- menu mobile
+- sliders (se for usar) estão indo um pouco pro lado a cada rodada
+- tópicos do menu mudando de cor conforme for descendo
+- fazer botão winker, janela winker e redirecionamento winker
+- botão para subir até em cima
+- dá para mudar a fonte do texto do Google Ratings
+- linktree instagram
+- dark mode
+
+
+
+Serviços:
+- Elaboração de editais e atas
+- Participação efetiva em assembleias
+- Avaliação de relatório financeiro e elaboração de previsões orçamentárias.
+- Emissão do demonstrativo financeiro mensal e anual
+- Assessoria Contábil
+- Emissão de relatórios financeiros (conciliações bancárias, despesas por categorias contábeis e contratuais, controle de custos)
+- Assessoramento fiscal
+- Avaliação do enquadramento fiscal da empresa
+- Emissão dos boletos bancários, remessa e controle de pagamento
+- Auxílio no controle dos registros de leituras individuais.
+- Apoio Administrativo Jurídico
+- Elaboração de comunicados
+- Taxa de Administração
+- Malote
+- Assessoramento Recursos Humanos
+Serviços Adicionais
+- Constituição do Condomínio
+- Condomínio On-line
+- Pagamento de fornecedores via Internet Banking
+- Balancete Digital
+- Assessoria de Cobrança
+- Assembleia mista (Hora técnica, deslocamento e sala Zoom)
+
+
+CHECAR TODAS AS INFORMAÇÕES ABAIXO:::
+
+
+Administração: Oferecemos uma gestão abrangente, desde a organização inicial do condomínio até a 
+contratação de serviços, elaboração de documentos e participação em assembleias.
+
+Financeiro: Planejamos e controlamos as finanças, incluindo a previsão orçamentária, 
+pagamento de contas e controle da inadimplência.
+
+Recursos Humanos: auxiliamos na seleção e contratação de empregados, gerenciamos a folha de pagamento 
+e asseguramos a conformidade com normas trabalhistas de saúde ocupacional.
+
+Síndico Profissional: Oferecemos síndico especializado que atua com profissionalismo e imparcialidade,
+garantindo a boa gestão do condomínio.
+
+Condomínio Online: Ferramenta digital que permite o acesso prático a documentos e informações do seu condomínio.
+
+
+SOBRE:
+A Liderança
+A LIDERANÇA ADMINISTRADORA DE CONDOMÍNIOS, fundada em 2 de maio de 2002, com metodologia própria e competência, 
+vem se projetando rapidamente no cenário das Administradoras de Condomínios. Tal projeção é fruto da experiência 
+acumulada no desenvolvimento de sua atividade, dando especial atenção à assessoria administrativa e jurídica. 
+O quadro funcional da Liderança é composto por técnicos com formação em Administração, Direito e Contabilidade. 
+Conta também com serviços auxiliares para operacionalização das rotinas internas e externas. O objetivo principal 
+concentra-se nas ações gerenciais do síndico, facilitadas por profissionais habilitados para consultoria em tempo 
+real; e em informações seguras e de fácil interpretação, visando a eficiência da gestão. Com ações mais simples, 
+econômicas e rápidas, poupa-se preocupação. O diferencial está no atendimento personalizado, desempenhado por renomados 
+profissionais, com larga experiência na atividade condominial.
+
+Missão
+Surpreender nossos clientes com serviços personalizados, prestados por profissionais motivados e 
+qualificados para assessorar na tomada de decisão, oferecendo informações de fácil interpretação, 
+atualizadas e confiáveis. Atender ao cliente com agilidade e cordialidade, primando pelos valores 
+éticos e aperfeiçoamento constante dos colaboradores diretos e indiretos, seguindo pesquisa de satisfação 
+para garantir a eficiência do Sistema de Gestão.
+
+Visão
+Manter-se entre as melhores empresas do ramo, com um referencial de excelência, 
+reconhecida pela eficiência, flexibilidade e ética.
