@@ -1,80 +1,148 @@
 html {
-  scroll-behavior: smooth;
-  box-sizing: border-box;
-  @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-  font-family: "Inter";
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+	@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+	font-family: "Inter";
 }
 body {
-  margin: 0px;
-  padding: 0px;
-  letter-spacing: 1px;
-  overflow-x: hidden;
+	margin: 0px;
+	padding: 0px;
+	letter-spacing: 1px;
+	/*overflow-x: hidden;*/
+	margin-bottom: 200px;
+}
+.azul-claro {
+	color: #029ad7;
+}
+.azul-escuro {
+	color: #364d77;
 }
 
-/*Barra Topo*/
-.barra-topo {
-  background-color: #364d77;
-  width: 100vw;
-  height: 45px;
-  display: flex;
-  justify-content: center;
+.front-cover {
+	position: relative;
+	background-image: url("./media/fundo\ antigo.jpg");
+	height: 100vh;
+	background-size: cover;
 }
-.barra-topo-area {
-  width: 90vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #eee;
-}
-.CRA {
-  margin-right: 30px;
-}
-.phone-barra-topo {
-  color: #eee;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  margin-right: 30px;
-}
-.phone-barra-topo img {
-  width: 20px;
-  height: auto;
-  margin-right: 5px;
-}
-.whatsapp-barra-topo {
-  color: #eee;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-}
-.whatsapp-barra-topo img {
-  width: 20px;
-  height: auto;
-  margin-right: 5px;
-}
-.whatsapp-barra-topo p {
-  cursor: pointer;
-}
-
 header {
-  display: flex;
-  width: 100vw;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 125px;
-  background-color: #eee;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+	display: flex;
+	width: 100vw;
+	flex-direction: row;
+	height: 96px;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	padding-top: 15px;
 }
 .container {
-  width: 80vw;
-  height: inherit;
-  display: flex;
+	width: calc(100vw - 768px);
+	height: inherit;
+	display: flex;
+}
+.logo-area img {
+	width: 221px;
+	height: 86px;
 }
 
-/*Logo         288x*/
+.menu-area {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.menu-item {
+	font-size: 15px;
+}
+
+.botao-winker--area {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.botao-winker {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f28b20;
+	border-radius: 19.5px;
+	color: #fff;
+	width: 192px;
+	height: 31px;
+}
+
+.capa {
+	display: flex;
+	justify-content: center;
+}
+
+.textos-capa--area {
+	width: 713px;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 0;
+	margin-top: 192px;
+}
+
+.titulo-capa {
+	font-size: 60px;
+}
+
+.paragrafo-capa {
+	font-size: 35px;
+	width: 624px;
+}
+
+.quadrados-capa--area {
+	background-color: #364d77;
+}
+
+/*
+.barra-topo {
+	background-color: #364d77;
+	width: 100vw;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+}
+.barra-topo-area {
+	width: 90vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #eee;
+}
+.CRA {
+	margin-right: 30px;
+}
+.phone-barra-topo {
+	color: #eee;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	margin-right: 30px;
+}
+.phone-barra-topo img {
+	width: 20px;
+	height: auto;
+	margin-right: 5px;
+}
+.whatsapp-barra-topo {
+	color: #eee;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+}
+.whatsapp-barra-topo img {
+	width: 20px;
+	height: auto;
+	margin-right: 5px;
+}
+.whatsapp-barra-topo p {
+	cursor: pointer;
+}
+
+
 .logo-area {
   height: auto;
   display: flex;
@@ -92,7 +160,6 @@ header {
   opacity: 80%;
 }
 
-/*Menu*/
 .menu-area {
   display: flex;
   align-items: center;
@@ -128,7 +195,6 @@ header {
   transform: scale(1.07);
 }
 
-/*Botão Winker*/
 .winker-area {
   display: flex;
   justify-content: end;
@@ -151,7 +217,6 @@ header {
   background-color: #364d77;
 }
 
-/*entrada*/
 .entrada {
   background-color: #333;
   height: calc(100vh - 170px);
@@ -160,7 +225,6 @@ header {
   background-size: cover;
 }
 
-/*quadrados*/
 #empresa {
   width: inherit;
   height: 500px;
@@ -200,7 +264,6 @@ header {
   color: #888;
 }
 
-/*Slides*/
 section {
   display: block;
 }
@@ -285,7 +348,6 @@ section {
   background-color: #029ad7;
 }
 
-/*área de avaliações*/
 .avaliacoes-area {
   width: 100vw;
   padding-top: 40px;
@@ -295,13 +357,11 @@ section {
 .avaliacoes {
   width: 100%;
 }
-/*google maps*/
+
 .mapa-area {
   width: 100vw;
   margin-bottom: -4px;
 }
-
-/*rodapé - footer*/
 
 .barra-baixo {
   display: flex;
@@ -317,3 +377,4 @@ section {
 .criador:hover {
   text-decoration: underline;
 }
+*/
