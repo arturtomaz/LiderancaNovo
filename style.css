@@ -1,100 +1,111 @@
 html {
-	scroll-behavior: smooth;
-	box-sizing: border-box;
-	@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-	font-family: "Inter";
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+  font-family: "Inter";
 }
 body {
-	margin: 0px;
-	padding: 0px;
-	letter-spacing: 1px;
-	/*overflow-x: hidden;*/
-	margin-bottom: 200px;
+  margin: 0px;
+  padding: 0px;
+  letter-spacing: 1px;
+  /*overflow-x: hidden;*/
+  margin-bottom: 200px;
 }
 .azul-claro {
-	color: #029ad7;
+  color: #029ad7;
 }
 .azul-escuro {
-	color: #364d77;
+  color: #364d77;
 }
 
 .front-cover {
-	position: relative;
-	background-image: url("./media/fundo\ antigo.jpg");
-	height: 100vh;
-	background-size: cover;
+  position: relative;
+  background-image: url("./media/fundo\ antigo.jpg");
+  height: 1055px;
+  width: 100vw;
 }
 header {
-	display: flex;
-	width: 100vw;
-	flex-direction: row;
-	height: 96px;
-	justify-content: center;
-	align-items: center;
-	position: absolute;
-	top: 0;
-	padding-top: 15px;
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+  height: 96px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  padding-top: 15px;
 }
 .container {
-	width: calc(100vw - 768px);
-	height: inherit;
-	display: flex;
+  width: calc(100vw - 768px);
+  height: inherit;
+  display: flex;
 }
 .logo-area img {
-	width: 221px;
-	height: 86px;
+  width: 221px;
+  height: 86px;
 }
 
 .menu-area {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .menu-item {
-	font-size: 15px;
+  font-size: 15px;
 }
 
 .botao-winker--area {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .botao-winker {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: #f28b20;
-	border-radius: 19.5px;
-	color: #fff;
-	width: 192px;
-	height: 31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f28b20;
+  border-radius: 19.5px;
+  color: #fff;
+  width: 192px;
+  height: 31px;
 }
 
 .capa {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-
+.capa-principal {
+}
 .textos-capa--area {
-	width: 713px;
-	display: flex;
-	flex-direction: column;
-	position: absolute;
-	top: 0;
-	margin-top: 192px;
+  width: 713px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  margin-top: 96px;
 }
 
 .titulo-capa {
-	font-size: 60px;
+  font-size: 60px;
 }
 
 .paragrafo-capa {
-	font-size: 35px;
-	width: 624px;
+  font-size: 35px;
+  width: 624px;
+}
+
+.foto-neusa {
+  position: absolute;
+  width: 489px;
+  height: auto;
 }
 
 .quadrados-capa--area {
-	background-color: #364d77;
+  background-color: #364d77;
+  width: 100vw;
+  height: 250px;
+  position: absolute;
+  top: 750px;
 }
 
 /*
