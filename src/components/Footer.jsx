@@ -1,11 +1,11 @@
 function Footer() {
   return (
-    <div className="bg-[#364d77] flex pt-[50px] justify-evenly pb-[30px]">
+    <div className="bg-[#364d77] flex pt-[50px] justify-evenly pb-[30px] footer">
       {/* Logo e Redes Sociais */}
-      <div className="w-[384px]">
+      <div className="w-[384px] logo-footer--area">
         <a href="">
           <img
-            className="w-[384px] mb-[30px] hover:opacity-80 duration-200"
+            className="logo-footer w-[384px] mb-[30px] hover:opacity-80 duration-200"
             src="/media/logo-mail.png"
             alt=""
           />
@@ -14,29 +14,29 @@ function Footer() {
           <h1 className="text-[32px] text-[#f0f0f0] leading-[40px]">
             Redes Sociais
           </h1>
-          <div className="bg-[#029ad7] w-[214px] h-[3px]"></div>
+          <div className="risco-azul1 bg-[#029ad7] w-[214px] h-[3px]"></div>
         </div>
-        <p className="text-[21px] text-[#f0f0f0] mb-[25px]">
+        <p className="text-[21px] text-[#f0f0f0] mb-[25px] flex-wrap">
           Siga-nos nas redes sociais e fique por dentro das novidades.
         </p>
         <div className="flex">
           <a href="https://www.facebook.com/liderancacond/" target="_Blank">
             <img
-              className="w-[50px] h-[50px] mr-[32px]"
+              className="social-icons w-[50px] h-[50px] mr-[32px]"
               src="/media/facebook.png"
               alt=""
             />
           </a>
           <a href="https://www.instagram.com/liderancacond/" target="_Blank">
             <img
-              className="w-[50px] h-[50px] mr-[32px]"
+              className="social-icons w-[50px] h-[50px] mr-[32px]"
               src="/media/instagram.png"
               alt=""
             />
           </a>
           <a href="https://www.linkedin.com/company/liderancacond/" target="_Blank">
             <img
-              className="w-[50px] h-[50px] mr-[32px]"
+              className="social-icons w-[50px] h-[50px] mr-[32px]"
               src="/media/linkedin.png"
               alt=""
             />
@@ -45,10 +45,10 @@ function Footer() {
       </div>
 
       {/* Contato */}
-      <div className="flex flex-col justify-center items-start h-[400px]">
+      <div className="flex flex-col justify-center items-start h-[400px]" id="contact">
         <div className="mb-[32px]">
           <h1 className="text-[32px] text-[#f0f0f0] leading-[40px]">Contato</h1>
-          <div className="bg-[#029ad7] w-[125px] h-[3px]"></div>
+          <div className="risco-azul2 bg-[#029ad7] w-[125px] h-[3px]"></div>
         </div>
         <div className="text-[21px] text-[#f0f0f0]">
           <p className="mb-[40px]">
@@ -57,13 +57,13 @@ function Footer() {
             Campinas <br />
             São José - SC
           </p>
-          <p>48 3241-4413 / 3035-4413</p>
+          <p>48 <a href="tel:3241-4413" className="underline">3241-4413</a> / <a href="tel:3035-4413" className="underline">3035-4413</a></p>
         </div>
       </div>
 
       {/* Instagram */}
       <div>
-        <div className="bg-[#F00] w-[355px] h-[480px]"></div>
+        <div className="feed-instagram bg-[#F00] w-[355px] h-[480px] flex justify-center items-center text-[30px]">Instagram Feed</div>
       </div>
     </div>
   );

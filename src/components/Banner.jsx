@@ -5,12 +5,10 @@ function Banner() {
       <div className="mx-auto w-full max-w-screen-xl px-[96px] flex justify-between items-center">
         {/* Textos */}
         <div>
-          <h1 className="text-6xl text-[#364d77] font-extrabold">
-            Especialista em gestão
-            <br />
-            de condomínios
+          <h1 className="company-subtitle text-6xl text-[#364d77] font-extrabold text-wrap w-[720px]">
+            Especialista em gestão de condomínios
           </h1>
-          <h2 className="text-[35px] mt-12 text-[#029ad7] font-extralight">
+          <h2 className="company-description text-[35px] mt-12 text-[#029ad7] font-extralight">
             A <b className="text-[#364d77] font-extrabold">Liderança</b> oferece
             profissionais <br /> qualificados para apoiar o corpo <br />
             diretivo do condomínio com <br /> serviços personalizados e <br />
@@ -22,13 +20,11 @@ function Banner() {
           </h2>
         </div>
         {/* Área Foto Neusa */}
-        <div>
-          <img
-            src="/media/foto-neusa.png"
-            alt=""
-            className="fotoNeusa w-[600px] absolute top-[130px] right-[370px]"
-          />
-        </div>
+        <img
+          src="/media/foto-neusa.png"
+          alt=""
+          className="fotoNeusa w-[600px] absolute top-[130px] right-[370px] z-0"
+        />
       </div>
     </div>
   );

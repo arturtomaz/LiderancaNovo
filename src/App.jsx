@@ -9,7 +9,7 @@ import "@fontsource/inter";
 
 function App() {
   return (
-    <div className="w-full flex flex-col h-[66rem] bg-[url('/media/fundo-antigo.jpg')] font-inter">
+    <div className="w-full flex flex-col h-[66rem] bg-[url('/media/fundo-antigo.jpg')] font-inter background-banner z-0">
       <Navbar />
       <Banner />
       <SquaresArea />

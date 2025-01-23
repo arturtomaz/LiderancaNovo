@@ -2,6 +2,106 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+/* Animations */
+@keyframes appearLeft {
+    from {
+        opacity: 0;
+        transform: translate(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+@keyframes appearRight {
+    from {
+        opacity: 0;
+        transform: translate(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+@keyframes upperScaling {
+    from {
+        opacity: 0;
+        scale: 0.8;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+#about-us img {
+    animation: appearLeft linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+#about-us .p-about {
+    animation: appearRight linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+#services .services-upper, .services-lower {
+    animation: upperScaling linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+}
+
+.footer .logo-footer--area, #contact {
+    animation: appearLeft linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.menu-mobile--lines--area {
+    width: 140px;
+    height: 140px;
+    display: none;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+.menu-mobile--lines{
+    width: 130px;
+    height: 20px;
+    background-color: #029ad7;
+    transition: all ease .2s;
+}
+
+.menu-faketrigger {
+    display: none;
+}
+
+.menu-faketrigger:checked~.menu-mobile--lines--area span:nth-child(1) {
+    transform-origin: 0% 0%;
+    transform: rotate(45deg) scaleX(1.18);
+}
+.menu-faketrigger:checked~.menu-mobile--lines--area span:nth-child(2) {
+    opacity: 0;
+}
+.menu-faketrigger:checked~.menu-mobile--lines--area span:nth-child(3) {
+    transform-origin: 0% 100%;
+    transform: rotate(-45deg) scaleX(1.18);
+}
+
+.menu-faketrigger:checked~.menu-mobile {
+    display: flex;
+    flex-direction: column;
+}
+
 @media (max-width: 1700px) {
     .fotoNeusa {
         top: 150px;
@@ -26,8 +126,171 @@
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1231px) {
+    .background-banner {
+        background-position: -650px;
+        background-size: 2400px;
+        height: 1350px;
+    }
     /* MENU HAMBURGER */
+    .menu-default--area {
+        display: none;
+    }
+    .logo-header {
+        margin-top: 40px;
+        width: 500px;
+    }
+
+    .menu-faketrigger {
+        display: block;
+    }
+
+    .menu-mobile--lines--area {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .company-subtitle {
+        font-size: 80px;
+        margin-left: -80px;
+        margin-top: 120px;
+    }
+    .company-description {
+        display: none;
+    }
+    .fotoNeusa {
+        width: 800px;
+        top: 210px;
+        right: -80px;
+    }
+    .quadrados-background {
+        height: 5500px;
+        top: 720px;
+        margin-bottom: 770px;
+    }
+    .area-quadrados {
+        flex-direction: column;
+    }
+    .quadrado {
+        top: -200px;
+        height: 780px;
+        width: 786px;
+        margin-bottom: 120px;
+    }
+    .quadrado img {
+        margin-top:70px;
+        width: 273px;
+        height: auto;
+    }
+    .quadrado h1 {
+        font-size: 65px;
+        line-height: 80px;
+        margin-top: 40px;
+    }
+    .quadrado p {
+        margin-top: 20px;
+        font-size: 55px;
+        line-height: 80px;
+    }
+    #about-us {
+        height: 1850px;
+    }
+    #about-us h1{
+        font-size: 100px;
+        margin-bottom: 40px;
+    }
+
+    #about-us div div {
+        flex-direction: column;
+        align-items: center;
+    }
+    #about-us div div img {
+        width: 890px;
+    }    
+    #about-us p {
+        margin-top: 50px;
+        font-size: 50px;
+    }
+
+    #services {
+        height: 6300px;
+        padding-top: 60px;
+        padding-bottom: 100px;
+    }
+
+    .title-services {
+        font-size: 100px;
+    }
+    .services-upper {
+        margin-bottom: 0px;
+    }
+    .services-upper, .services-lower {
+        flex-direction: column;
+        align-items: center;
+    }
+    .service-area {
+        margin-bottom: 120px;
+        width: 990px;
+        height: 1080px;
+    }
+    .enlarge-square{
+        padding: 10px;
+    }
+    .enlarge-square img{
+        width: 412px;
+        margin-top: -150px;
+        margin-bottom: 50px;
+    }
+    .enlarge-square h1 {
+        font-size: 90px;
+        line-height: 100px;
+    }
+    .enlarge-square p {
+        font-size: 65px;
+    }
+    .footer {
+        flex-direction: column;
+        padding: calc(10vw/2);
+    }
+    .logo-footer--area {
+        width: 90vw;
+        margin-bottom: 150px;
+    }
+    .logo-footer {
+        width: 550px;
+    }
+    .footer h1 {
+        font-size: 80px;
+        line-height: 90px;
+    }
+    .footer p {
+        font-size: 50px;
+    }
+    .risco-azul1 {
+        width: 530px;
+        height: 10px;
+    }
+    .risco-azul2 {
+        width: 305px;
+        height: 10px;
+    }
+    .social-icons {
+        width: 129px;
+        height: 128px;
+    }
+    #contact {
+        margin-bottom: 170px;
+    }
+    .feed-instagram {
+        width: 990px;
+        height: 1340px;
+        font-size: 60px;
+    }
+    .credits{
+        font-size: 40px;
+        padding: 20px;
+        text-align: center;;
+    }
 
 }
 
