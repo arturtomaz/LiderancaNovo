@@ -2,10 +2,6 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-body {
-    margin-bottom: 500px;
-}
-
 @media (max-width: 1700px) {
     .fotoNeusa {
         top: 150px;

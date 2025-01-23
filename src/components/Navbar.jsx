@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <div className="w-full h-40 flex items-center">
+    <div className="w-full h-40 flex items-center mt-[20px] mb-[50px]">
       {/* Container com margens fixas e largura máxima */}
       <div className="mx-auto w-full max-w-screen-xl px-[96px] flex justify-between items-center">
         {/* logo */}
