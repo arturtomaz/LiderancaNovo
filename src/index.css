@@ -1,0 +1,37 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+    margin-bottom: 500px;
+}
+
+@media (max-width: 1700px) {
+    .fotoNeusa {
+        top: 150px;
+        right: 270px;
+        
+    }  
+}
+@media (max-width: 1550px) {
+    .fotoNeusa {
+        right: 210px;
+    }  
+}
+@media (max-width: 1450px) {
+    .fotoNeusa {
+        right: 120px;
+    }  
+}
+@media (max-width: 1275px) {
+    .fotoNeusa {
+        right: 40px;
+    }  
+}
+
+
+@media (max-width: 1200px) {
+    /* MENU HAMBURGER */
+
+}
+
