@@ -396,7 +396,7 @@ html body {
         line-height: 20px;
     }
     #about-us {
-        height: 620px;
+        height: 670px;
     }
     .about-us--ctrl {
         padding: 10px;
@@ -409,7 +409,7 @@ html body {
         width: 300px;
     }    
     #about-us .p-about {
-        margin-left: 0px;
+        margin-left: 0px;   
     }
     #about-us p {
         font-size: 18px;
