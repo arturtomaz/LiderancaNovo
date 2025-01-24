@@ -1,7 +1,7 @@
 function Services() {
   return (
     <div className="bg-[#EEEEEE] h-[770px] pb-[70px] pt-[20px]" id="services">
-      <div className="mx-auto w-full max-w-screen-xl px-[96px] flex flex-col justify-center items-center">
+      <div className="services-crtl mx-auto w-full max-w-screen-xl px-[96px] flex flex-col justify-center items-center">
         <h1 className="title-services text-[#364d77] text-[64px] font-bold mb-[15px]">
           Serviços:
         </h1>

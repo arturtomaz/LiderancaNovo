@@ -63,7 +63,7 @@ function Footer() {
 
       {/* Instagram */}
       <div>
-        <div className="feed-instagram bg-[#F00] w-[355px] h-[480px] flex justify-center items-center text-[30px]">Instagram Feed</div>
+        <div className="feed-instagram bg-[#F00] w-[355px] h-[480px] flex justify-center items-center text-[30px] text-[#f0f0f0]">Instagram Feed</div>
       </div>
     </div>
   );

@@ -66,25 +66,15 @@ html body {
 }
 
 .menu-mobile--lines--area {
-    width: 140px;
-    height: 140px;
     display: none;
+    flex-direction: column;
 }
-
+.menu-mobile--lines{
+    transition: all ease .2s;
+}
 .menu-mobile {
     display: none;
 }
-
-.menu-mobile--lines{
-    width: 130px;
-    height: 20px;
-    background-color: #029ad7;
-    transition: all ease .2s;
-}
-.menu-mobile--items a li {
-    padding: 20px;
-}
-
 
 .menu-faketrigger {
     display: none;
@@ -156,7 +146,15 @@ html body {
 
     .menu-mobile--lines--area {
         display: flex;
-        flex-direction: column;
+        width: 140px;
+        height: 140px;
+    }
+    .menu-mobile--lines{
+        width: 130px;
+        height: 20px;
+    }
+    .menu-mobile--items a li {
+        padding: 20px;
     }
 
     .company-subtitle {
@@ -300,5 +298,214 @@ html body {
         text-align: center;;
     }
 
+}
+
+@media (max-width: 500px) {
+    .background-banner {
+        background-position: -650px;
+        background-size: 1400px;
+        height: 750px;
+    }
+    /* MENU HAMBURGER */
+    #home {
+        margin: 0px;
+        height: 100px;
+        padding: 0px;
+        margin-bottom: 30px;
+    }
+    .mobileCtrl {
+        padding: 0px;
+    }
+    .logo-header {
+        margin-left: 20px;
+        margin-top: 0px;
+        width: 170px;
+    }
+
+    .menu-faketrigger {
+        display: block;
+        width: 44px;
+        height: 50px;
+        right: 20px;
+        top: 30px;        
+    }
+    
+    .menu-mobile--lines--area {
+        display: flex;
+        width: 44px;
+        height: 50px;
+        right: 20px;
+        top: 30px;
+    }
+    .menu-mobile--lines{
+        width: 44px;
+        height: 6px;
+        margin-bottom: 11px;
+    }
+    .menu-mobile {
+        padding: 30px;
+    }
+    .menu-mobile--items a li {
+        padding: 10px;
+        font-size: 18px;
+    }
+    .winker-button {
+        padding: 10px;
+        font-size: 18px;
+    }
+    .company-subtitle {
+        font-size: 30px;
+        margin-left: -90px;
+        margin-top: 0px;
+        width: 250px;
+    }
+    .fotoNeusa {
+        width: 300px;
+        top: 150px;
+        transform: translateX(40%);
+    }
+    .quadrados-background {
+        height: 750px;
+        top: 350px;
+        margin-bottom: 400px;
+    }
+    .area-quadrados {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .quadrado {
+        top: -100px;
+        height: 240px;
+        width: 246px;
+        margin-bottom: 40px;
+    }
+    .quadrado img {
+        margin-top:20px;
+        width: 103px;
+        height: auto;
+    }
+    .quadrado h1 {
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .quadrado p {
+        margin-top: 0px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    #about-us {
+        height: 700px;
+    }
+    .about-us--ctrl {
+        padding: 10px;
+    }
+    #about-us h1{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    #about-us div div img {
+        width: 300px;
+    }    
+    #about-us .p-about {
+        margin-left: 0px;
+    }
+    #about-us p {
+        font-size: 18px;
+    }
+    #about-us p:nth-child(1) {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    #about-us p:nth-child(2) {
+        margin-top: 10px;
+    }
+    #services {
+        height: 3300px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .title-services {
+        font-size: 30px;
+    }
+    .services-crtl {
+        padding: 10px;
+    }
+    .services-upper {
+        margin-bottom: 0px;
+    }
+    .services-upper, .services-lower {
+        align-items: center;
+    }
+    .service-area {
+        margin-bottom: 20px;
+        width: 130px;
+        height: 146px;
+    }
+    .enlarge-square{
+        padding: 4px;
+    }
+    .enlarge-square img{
+        width: 50px;
+        margin-bottom: 8px;
+    }
+    .enlarge-square h1 {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .enlarge-square p {
+        font-size: 11px;
+    }
+
+
+
+    .footer {
+        flex-direction: column;
+        padding: calc(10vw/2);
+        align-items: center;
+        padding-bottom: 40px;
+    }
+    .logo-footer--area {
+        width: 90vw;
+        margin-bottom: 20px;
+    }
+    .logo-footer {
+        width: 200px;
+    }
+    .footer h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .footer p {
+        font-size: 15px;
+    }
+    .risco-azul1 {
+        width: 200px;
+        height: 3px;
+    }
+    .risco-azul2 {
+        width: 115px;
+        height: 3px;
+    }
+    .social-icons {
+        width: 49px;
+        height:50px;
+    }
+    #contact {
+        margin-bottom: 0px;
+        height: 280px;
+        margin-bottom: 30px;
+    }
+    .feed-instagram {
+        width: 290px;
+        height: 500px;
+        font-size: 30px;
+    }
+    .credits{
+        font-size: 15px;
+        padding: 5px;
+        text-align: center;;
+    }
 }
 
