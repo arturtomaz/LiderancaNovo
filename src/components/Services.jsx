@@ -6,7 +6,7 @@ function Services() {
           Serviços:
         </h1>
         {/* Quadrados de cima */}
-        <div className="services-upper w-full flex justify-around mb-[40px]">
+        <div className="services-upper w-full flex justify-around mb-[40px] flex-wrap">
           {/* Área um quadrado */}
           <div className="service-area bg-[#EEEEEE] drop-shadow-lg w-[288px] h-[218px] flex justify-center group cursor-pointer relative overflow-hidden">
             {/* Div de cima */}
