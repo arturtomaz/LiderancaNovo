@@ -303,8 +303,8 @@ html body {
 @media (max-width: 500px) {
     .background-banner {
         background-position: -650px;
-        background-size: 1400px;
-        height: 750px;
+        background-size: 1500px;
+        height:790px;
     }
     /* MENU HAMBURGER */
     #home {
@@ -366,8 +366,8 @@ html body {
     }
     .quadrados-background {
         height: 750px;
-        top: 350px;
-        margin-bottom: 400px;
+        top: 340px;
+        margin-bottom: 350px;
     }
     .area-quadrados {
         flex-direction: column;
@@ -396,7 +396,7 @@ html body {
         line-height: 20px;
     }
     #about-us {
-        height: 700px;
+        height: 620px;
     }
     .about-us--ctrl {
         padding: 10px;
@@ -496,6 +496,7 @@ html body {
         margin-bottom: 0px;
         height: 280px;
         margin-bottom: 30px;
+        width: 90vw;
     }
     .feed-instagram {
         width: 290px;
