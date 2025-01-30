@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="bg-[#364d77] flex pt-[50px] justify-evenly pb-[30px] footer">
+    <div className="bg-[#364d77] flex pt-[50px] justify-evenly pb-[70px] footer">
       {/* Logo e Redes Sociais */}
       <div className="w-[384px] logo-footer--area">
         <a href="">
