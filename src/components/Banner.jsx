@@ -2,10 +2,10 @@ function Banner() {
   return (
     <div className="h-[576px]">
       {/* Container */}
-      <div className="mx-auto w-full max-w-screen-xl px-[96px] flex justify-between items-center">
+      <div className="container">
         {/* Textos */}
         <div>
-          <h1 className="company-subtitle text-6xl text-[#364d77] font-extrabold text-wrap w-[720px]">
+          <h1 className="company-subtitle text-[60px] leading-none text-[#364d77] font-extrabold text-wrap w-[720px]">
             Especialista em gestão de condomínios
           </h1>
           <h2 className="company-description text-[35px] mt-12 text-[#029ad7] font-extralight">

@@ -2,7 +2,7 @@ function SquaresArea() {
     return(
         <div className="quadrados-background top-[240px] relative bg-[#364d77] w-full h-[260px] mb-[370px] z-0">
             {/* Área dos Quadrados */}
-            <div className="area-quadrados mx-auto w-full max-w-screen-xl px-[96px] flex flex-row justify-between items-center">
+            <div className="area-quadrados container">
                 {/* Quadrado em si */}
                 <div className="quadrado drop-shadow-lg  bg-[#f0f0f0] w-[288px] h-[286px] relative top-[60px] flex flex-col items-center">
                     <img className="w-[100px] h-[95px] mt-[10px]" src="/media/icone-grafico.png" alt="" />
