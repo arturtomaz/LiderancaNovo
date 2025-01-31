@@ -4,14 +4,12 @@ function Navbar() {
   useEffect(() => {
     const winkerButton = document.querySelectorAll(".winkerButton");
     const winkerArea = document.querySelector(".winker-area");
+    const body = document.querySelector("body");
 
     // Adiciona o ouvinte de evento para a checkbox
     const handleCheckboxChange = () => {
-      if (winkerArea.style.display != "none") {
-        winkerArea.style.display = "none";
-      } else {
-        winkerArea.style.display = "flex";
-      }
+      winkerArea.style.display = "flex";
+      body.style.overflowY = "hidden";
     };
     winkerButton.forEach((item) => {
       item.addEventListener("click", handleCheckboxChange);
@@ -50,7 +48,7 @@ function Navbar() {
     const mobileNavItems = document.querySelectorAll(
       ".menu-mobile--items a li"
     );
-    const winkerButton = document.querySelector('.winker-button')
+    const winkerButton = document.querySelector(".winker-button");
     const body = document.querySelector("body");
 
     const handleCheckboxChange = () => {
@@ -58,10 +56,14 @@ function Navbar() {
       body.style.overflowY = "auto";
     };
 
+    const closeMobileMenu = () => {
+      document.querySelector(".menu-faketrigger").checked = false;
+    };
+
     mobileNavItems.forEach((item) => {
       item.addEventListener("click", handleCheckboxChange);
     });
-    winkerButton.addEventListener("click", handleCheckboxChange);
+    winkerButton.addEventListener("click", closeMobileMenu);
 
     return () => {
       mobileNavItems.forEach((item) => {
@@ -117,9 +119,7 @@ function Navbar() {
 
             {/* redirect winker button */}
             <div className="winkerButton flex h-7 bg-[#f28b20] p-4 items-center hover:bg-[#364d77] hover:scale-x-[103%] duration-[250ms] origin-right cursor-pointer">
-              <div className="text-white">
-                CONDOMÍNIO ONLINE
-              </div>
+              <div className="text-white">CONDOMÍNIO ONLINE</div>
             </div>
           </div>
         </div>
@@ -168,10 +168,7 @@ function Navbar() {
               CONTATO
             </li>
           </a>
-          <div
-            href=""
-            className="winker-button winkerButton text-white bg-[#f28b20] p-[20px]"
-          >
+          <div className="winker-button winkerButton text-white bg-[#f28b20] p-[20px]">
             CONDOMÍNIO ONLINE
           </div>
         </div>

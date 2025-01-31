@@ -5,14 +5,12 @@ function WinkerArea() {
     const transpBg = document.querySelector(".transparent-bg");
     const winkerArea = document.querySelector(".winker-area");
     const xButton = document.querySelector(".x-button");
+    const body = document.querySelector("body");
 
     // Adiciona o ouvinte de evento para a checkbox
     const handleCheckboxChange = () => {
-      if (winkerArea.style.display != "none") {
-        winkerArea.style.display = "none";
-      } else {
-        winkerArea.style.display = "flex";
-      }
+      winkerArea.style.display = "none";
+      body.style.overflowY = "auto";
     };
     transpBg.addEventListener("click", handleCheckboxChange);
     xButton.addEventListener("click", handleCheckboxChange);
@@ -30,9 +28,28 @@ function WinkerArea() {
       <div className="transparent-bg bg-[#000000] opacity-60 w-full h-full z-10"></div>
 
       {/* Winker Area */}
-      <div className="bg-[url('/media/winker-redirect.jpg')] w-[100%] h-[100%] scale-[0.8] absolute z-20 ">
-        <img className="x-button absolute top-[5px] right-[5px] w-[40px] h-[40px] cursor-pointer" src="/media/x-icon.png" alt="" />
-        <div className="bg-blue-600">Clique aqui para entrar na página do Condomínio Online</div>
+      <div className="winker-image absolute z-20 w-[1200px] h-auto">
+        <img className="" src="/media/winker-redirect.png" alt="" />
+        <img
+          className="x-button absolute top-[8px] right-[8px] w-[30px] h-[30px] invert cursor-pointer"
+          src="/media/x-icon.png"
+          alt=""
+        />
+        <div className=" flex absolute right-[30px] bottom-[30px]">
+          <a
+            href="https://www.winker.com.br/sobre/" target="_blank"
+            className="bg-[#029ad7] px-[20px] py-[10px] mr-[30px] text-[20px] text-[#ffffff] text-center rounded-full"
+          >
+            Saiba mais
+          </a>
+          <a
+            href="https://app.winker.com.br/intra/default/login"
+            target="_blank"
+            className="bg-[#f28b20] px-[20px] py-[10px] text-[20px] text-[#ffffff] text-center rounded-full"
+          >
+            Acesse a plataforma
+          </a>
+        </div>
       </div>
     </div>
   );
