@@ -25,15 +25,17 @@ html body {
 
 .transform-out {
   transition: transform 2s ease, opacity 3s ease;
+  opacity: 0;
 }
+
 .transform-out.t-right {
-  transform: translateX(350%);
-  opacity: 0;
+  transform: translateX(100vw);
 }
+
 .transform-out.t-left {
-  transform: translateX(-350%);
-  opacity: 0;
+  transform: translateX(-100vw);
 }
+
 .transform-out.show {
   transform: translateX(0);
   opacity: 1;
