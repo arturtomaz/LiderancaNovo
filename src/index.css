@@ -13,6 +13,12 @@
   /* mx-auto w-full max-w-screen-xl px-[96px] flex justify-between items-center */
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
 
 html {
   scroll-behavior: smooth;
@@ -24,7 +30,7 @@ html body {
   max-width: 100%;
 }
 
-.transform-out {
+/* .transform-out {
   transition: transform 2s ease, opacity 3s ease;
   opacity: 0;
 }
@@ -40,7 +46,7 @@ html body {
 .transform-out.show {
   transform: translateX(0);
   opacity: 1;
-}
+} */
 
 .service-area {
   transition: transform 1s ease, opacity 1s ease;
