@@ -13,68 +13,13 @@
   /* mx-auto w-full max-w-screen-xl px-[96px] flex justify-between items-center */
 }
 
-/* Animations */
-/* @keyframes appearLeft {
-  from {
-    opacity: 0;
-    transform: translate(-100px);
-  }
-  to {
-    opacity: 1;
-    transform: translate(0px);
-  }
-}
-@keyframes appearRight {
-  from {
-    opacity: 0;
-    transform: translate(100px);
-  }
-  to {
-    opacity: 1;
-    transform: translate(0px);
-  }
-}
-@keyframes upperScaling {
-  from {
-    opacity: 0;
-    scale: 0.8;
-  }
-  to {
-    opacity: 1;
-    scale: 1;
-  }
-}
-
-#about-us img {
-  animation: appearLeft linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
-}
-#about-us .p-about {
-  animation: appearRight linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
-}
-
-#services .services-upper,
-.services-lower {
-  animation: upperScaling linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 20%;
-}
-
-.footer .logo-footer--area,
-#contact {
-  animation: appearLeft linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
-} */
 
 html {
   scroll-behavior: smooth;
 }
 html body {
   overflow-x: hidden;
+  touch-action: manipulation;
 }
 
 .transform-out {
