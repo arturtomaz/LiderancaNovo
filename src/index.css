@@ -103,6 +103,10 @@ html body {
   top: 30px;
 }
 
+.botoes-winker {
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7), 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
 @media (max-width: 1700px) {
   .fotoNeusa {
     top: 150px;
@@ -467,8 +471,6 @@ html body {
   .credits {
     font-size: 13px;
   }
-
-  /* FAZER VERSÃO DA WINKER-IMAGEM PARA MOBILE */
   .winker-image {
     scale: 0.4;
   }
@@ -678,6 +680,22 @@ html body {
   }
 
   .winker-image {
-    scale: 0.25;
+    width: 804px;
+    scale: 0.35;
+  }
+  .x-button {
+    scale: 1.3;
+    top: 15px;
+    right: 15px;
+  }
+  .botoes-winker {
+    justify-content: space-between;
+    width: 100%;
+    bottom: 50px;
+    right: 0;
+    padding: 50px;
+  }
+  .saiba-mais, .acesse-plataforma {
+   font-size: 35px;
   }
 }
