@@ -19,7 +19,9 @@ html {
 }
 html body {
   overflow-x: hidden;
-  touch-action: manipulation;
+  width: 100vw;
+  height: 100vh;
+  min-width: 1024px;
 }
 
 .transform-out {
