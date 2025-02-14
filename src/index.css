@@ -14,7 +14,7 @@
 }
 
 /* Animations */
-@keyframes appearLeft {
+/* @keyframes appearLeft {
   from {
     opacity: 0;
     transform: translate(-100px);
@@ -68,7 +68,7 @@
   animation: appearLeft linear;
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
-}
+} */
 
 html {
   scroll-behavior: smooth;
@@ -76,6 +76,33 @@ html {
 html body {
   overflow-x: hidden;
 }
+
+.transform-out {
+  transition: transform 2s ease, opacity 3s ease;
+}
+.transform-out.t-right {
+  transform: translateX(350%);
+  opacity: 0;
+}
+.transform-out.t-left {
+  transform: translateX(-350%);
+  opacity: 0;
+}
+.transform-out.show {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.service-area {
+  transition: transform 1s ease, opacity 1s ease;
+  transform: scale(0.5);
+  opacity: 0;
+}
+.service-area.show {
+  transform: scale(1);
+  opacity: 1;
+}
+
 
 .menu-mobile--lines--area {
   display: none;

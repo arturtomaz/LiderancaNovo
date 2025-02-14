@@ -2,7 +2,7 @@ function Footer() {
   return (
     <div className="bg-[#364d77] flex pt-[50px] justify-evenly pb-[70px] footer">
       {/* Logo e Redes Sociais */}
-      <div className="w-[384px] logo-footer--area">
+      <div className="w-[384px] logo-footer--area transform-out t-left">
         <a href="">
           <img
             className="logo-footer w-[384px] mb-[30px] hover:opacity-80 duration-200"
@@ -45,7 +45,7 @@ function Footer() {
       </div>
 
       {/* Contato */}
-      <div className="flex flex-col justify-center items-start h-[400px]" id="contact">
+      <div className="flex flex-col justify-center items-start h-[400px] transform-out t-right" id="contact">
         <div className="mb-[32px]">
           <h1 className="text-[32px] text-[#f0f0f0] leading-[40px]">Contato</h1>
           <div className="risco-azul2 bg-[#029ad7] w-[125px] h-[3px]"></div>
@@ -61,7 +61,7 @@ function Footer() {
         </div>
       </div>
 
-      {/* Instagram */}
+      {/* Instagram (desativado) */}
       <div className="hidden">
         <div className="feed-instagram bg-[#F00] w-[355px] h-[480px] flex justify-center items-center text-[30px] text-[#f0f0f0]">Instagram Feed</div>
       </div>

@@ -8,11 +8,11 @@ function AboutUs() {
 
         <div className="flex">
           <img
-            className="w-[500px] object-contain"
+            className="w-[500px] object-contain transform-out t-left"
             src="/media/SamirNeusa.jpg"
             alt=""
           />
-          <div className="p-about flex flex-col text-[#364d77] text-[23px] ml-[30px]">
+          <div className="p-about flex flex-col text-[#364d77] text-[23px] ml-[30px] transform-out t-right">
             <p className="mb-[10px]">
               Fundada em 2002, a Liderança Administradora de Condomínios é uma
               empresa reconhecida por sua metodologia eficiente e equipe
