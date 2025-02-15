@@ -2,7 +2,7 @@ function Banner() {
   return (
     <div className="h-[576px]">
       {/* Container */}
-      <div className="container">
+      <div className="container overflow-hidden">
         {/* Textos */}
         <div>
           <h1 className="company-subtitle text-[60px] leading-none text-[#364d77] font-extrabold text-wrap w-[720px]">

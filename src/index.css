@@ -30,7 +30,7 @@ html body {
   max-width: 100%;
 }
 
-/* .transform-out {
+.transform-out {
   transition: transform 2s ease, opacity 3s ease;
   opacity: 0;
 }
@@ -46,7 +46,7 @@ html body {
 .transform-out.show {
   transform: translateX(0);
   opacity: 1;
-} */
+}
 
 .service-area {
   transition: transform 1s ease, opacity 1s ease;
@@ -85,6 +85,23 @@ html body {
   top: 30px;
 }
 
+.winker-image {
+  width: 80vw;
+  height: auto;
+}
+.x-button {
+  width: 2vw;
+  height: auto;
+}
+.botoes-winker {
+  bottom: 2vw;
+  right: 1.5vw;
+}
+.saiba-mais, .acesse-plataforma {
+ font-size: 1.5vw;
+ padding: 1vw 2vw;
+}
+
 .botoes-winker {
   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7), 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
@@ -98,9 +115,6 @@ html body {
 @media (max-width: 1550px) {
   .fotoNeusa {
     right: 210px;
-  }
-  .winker-image {
-    scale: 0.8;
   }
 }
 @media (max-width: 1450px) {
@@ -190,9 +204,6 @@ html body {
     top: 110px;
     margin-bottom: 270px;
   }
-  .winker-image {
-    scale: 0.7;
-  }
 }
 
 @media (max-width: 1000px) {
@@ -266,17 +277,11 @@ html body {
   .service-area {
     scale: 0.9;
   }
-  .footer {
-    padding-top: 0px;
-  }
   .logo-footer--area {
     scale: 0.9;
   }
   #contact {
     scale: 0.9;
-  }
-  .winker-image {
-    scale: 0.6;
   }
 }
 
@@ -301,9 +306,6 @@ html body {
   }
   #about-us p {
     font-size: 16px;
-  }
-  .winker-image {
-    scale: 0.5;
   }
 
 }
@@ -439,22 +441,10 @@ html body {
     font-size: 15px;
   }
   .footer {
-    padding-top: 0px;
-    height: 400px;
-  }
-  .logo-footer--area {
-    scale: 0.8;
-    height: 100%;
-  }
-  #contact {
-    scale: 0.8;
-    height: 350px;
+    padding: 20px;
   }
   .credits {
     font-size: 13px;
-  }
-  .winker-image {
-    scale: 0.4;
   }
 }
 
@@ -612,13 +602,6 @@ html body {
   .enlarge-square p {
     font-size: 11px;
   }
-
-  .footer {
-    flex-direction: column;
-    align-items: start;
-    padding: 30px 15px 120px 15px;
-    height: 100%;
-  }
   .logo-footer--area {
     scale: 1;
     margin-bottom: 50px;
@@ -626,21 +609,21 @@ html body {
     width: calc(100vw - 30px);
   }
   .logo-footer {
-    width: 200px;
+    width: 250px;
   }
   .footer h1 {
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 25px;
+    line-height: 20px;
   }
   .footer p {
-    font-size: 15px;
+    font-size: 18px;
   }
   .risco-azul1 {
-    width: 200px;
+    width: 165px;
     height: 3px;
   }
   .risco-azul2 {
-    width: 115px;
+    width: 95px;
     height: 3px;
   }
   .social-icons {
@@ -662,22 +645,24 @@ html body {
   }
 
   .winker-image {
-    width: 804px;
-    scale: 0.35;
+    width: 68vw;
+    & picture img {
+      border-radius: 15px;
+    }
   }
+
   .x-button {
-    scale: 1.3;
-    top: 15px;
-    right: 15px;
+    width: 4vw;
+    top: 5px;
+    right: 5px;
   }
   .botoes-winker {
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
-    bottom: 50px;
+    bottom: 5vw;
     right: 0;
-    padding: 50px;
   }
   .saiba-mais, .acesse-plataforma {
-   font-size: 35px;
+   font-size: 2.5vw;
   }
 }

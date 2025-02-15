@@ -6,7 +6,7 @@ function AboutUs() {
           Quem somos?
         </h1>
 
-        <div className="flex">
+        <div className="flex overflow-x-hidden">
           <img
             className="w-[500px] object-contain transform-out t-left"
             src="/media/SamirNeusa.jpg"
