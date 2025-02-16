@@ -37,7 +37,7 @@ function WinkerArea() {
 
       {/* Winker Area */}
       <div className="winker-image absolute z-20 w-[1200px] h-auto">
-        <picture className="s">
+        <picture className="">
           <source
             media="(max-width: 500px)"
             srcSet="/media/winker-redirect-mobile.svg"

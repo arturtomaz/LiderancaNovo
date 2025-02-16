@@ -23,7 +23,7 @@ function Banner() {
         <img
           src="/media/foto-neusa.png"
           alt=""
-          className="fotoNeusa w-[600px] absolute top-[130px] right-[370px] z-0"
+          className="fotoNeusa w-[600px] absolute top-[130px] right-[370px] z-0 overflow-hidden"
         />
       </div>
     </div>
