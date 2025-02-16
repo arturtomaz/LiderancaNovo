@@ -1,7 +1,7 @@
 function AboutUs() {
   return (
     <div className="h-[770px] pb-[160px]" id="about-us">
-      <div className="about-us--ctrl container flex-col">
+      <div className="container flex-col">
         <h1 className="flex font-bold text-[64px] text-[#364d77] mb-[20px]">
           Quem somos?
         </h1>

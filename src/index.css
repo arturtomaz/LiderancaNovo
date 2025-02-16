@@ -277,11 +277,11 @@ html body {
   .service-area {
     scale: 0.9;
   }
-  .logo-footer--area {
-    scale: 0.9;
+  .footer {
+    justify-content: start;
   }
-  #contact {
-    scale: 0.9;
+  .logo-footer--area {
+    margin-bottom: 40px;
   }
 }
 
@@ -510,6 +510,7 @@ html body {
     width: 300px;
     top: 150px;
     transform: translateX(40%);
+    clip-path: inset(0 80px 0 0);
   }
   .quadrados-background {
     height: 750px;
@@ -602,12 +603,6 @@ html body {
   .enlarge-square p {
     font-size: 11px;
   }
-  .logo-footer--area {
-    scale: 1;
-    margin-bottom: 50px;
-    height: 100%;
-    width: calc(100vw - 30px);
-  }
   .logo-footer {
     width: 250px;
   }
@@ -631,7 +626,6 @@ html body {
     height: 50px;
   }
   #contact {
-    scale: 1;
     margin-bottom: 0px;
     height: 100%;
   }

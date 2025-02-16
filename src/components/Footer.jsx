@@ -1,8 +1,8 @@
 function Footer() {
   return (
-    <div className="bg-[#364d77] h-auto min-h-fit grid grid-cols-1 md:grid-cols-2 gap-8 px-8 pt-[30px] pb-[40px] footer overflow-hidden place-items-start">
+    <div className="bg-[#364d77] w-full h-auto min-h-fit flex flex-wrap justify-evenly px-8 pt-[30px] pb-[40px] footer overflow-hidden">
       {/* Logo e Redes Sociais */}
-      <div className="logo-footer--area w-full flex justify-start md:justify-center transform-out t-left">
+      <div className="logo-footer--area flex justify-start md:justify-center transform-out t-left">
         <div className="">
           <a href="">
             <img
@@ -51,7 +51,7 @@ function Footer() {
 
       {/* Contato */}
       <div
-        className="w-full flex flex-col justify-start items-start transform-out t-right"
+        className="flex flex-col justify-start items-start transform-out t-right"
         id="contact"
       >
         <div>
