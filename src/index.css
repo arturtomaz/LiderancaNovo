@@ -466,7 +466,6 @@ html body {
     margin: 0px;
     height: 100px;
     padding: 0px;
-    margin-bottom: 30px;
   }
   .logo-header {
     margin: 0;
@@ -509,7 +508,7 @@ html body {
   }
   .fotoNeusa {
     width: 250px;
-    top: 220px;
+    top: 190px;
     transform: translateX(14%);
   }
   .quadrados-background {
