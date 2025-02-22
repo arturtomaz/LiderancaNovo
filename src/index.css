@@ -5,7 +5,8 @@
 .container {
   margin: 0 auto;
   width: 100%;
-  padding: 0 96px;
+  padding-left: 96px;
+  padding-right: 96px;
   max-width: 1280px;
   display: flex;
   justify-content: space-between;
@@ -136,7 +137,8 @@ html body {
 
 @media (max-width: 1231px) {
   .container {
-    padding: 0 30px;
+    padding-right: 30px;
+    padding-left: 30px;
   }
   .menu-faketrigger:checked ~ .menu-mobile--lines--area span:nth-child(1) {
     transform-origin: 0% 0%;
@@ -280,9 +282,6 @@ html body {
   .footer {
     justify-content: start;
   }
-  .logo-footer--area {
-    margin-bottom: 40px;
-  }
 }
 
 @media (max-width: 785px) {
@@ -307,12 +306,16 @@ html body {
   #about-us p {
     font-size: 16px;
   }
+  .footer {
+    flex-wrap: wrap;
+  }
 
 }
 
 @media (max-width: 675px) {
   .container {
-    padding: 0 20px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .background-banner {
     background-position: -550px;
@@ -450,7 +453,8 @@ html body {
 
 @media (max-width: 500px) {
   .container {
-    padding: 0 15px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
   .background-banner {
     background-position: -650px;
@@ -463,9 +467,6 @@ html body {
     height: 100px;
     padding: 0px;
     margin-bottom: 30px;
-    & .container {
-      align-items: center;
-    }
   }
   .logo-header {
     margin: 0;
