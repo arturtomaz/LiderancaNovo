@@ -273,8 +273,6 @@ html body {
   .title-services {
     font-size: 50px;
   }
-  .services-upper {
-  }
   .service-area {
     width: 250px;
     height: 260px;
@@ -609,7 +607,7 @@ html body {
     margin-bottom: 8px;
   }
   .enlarge-square h1 {
-    font-size: 15px;
+    font-size: 80%;
     line-height: 18px;
   }
   .enlarge-square p {
