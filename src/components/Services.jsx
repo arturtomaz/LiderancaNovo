@@ -1,12 +1,12 @@
 function Services() {
   return (
-    <div className="bg-[#EEEEEE] h-[770px] pb-[70px] pt-[20px]" id="services">
+    <div className="bg-[#EEEEEE] min-h-fit pb-[70px] pt-[20px]" id="services">
       <div className="container flex-col">
         <h1 className="title-services text-[#364d77] text-[64px] font-bold mb-[15px]">
           Serviços:
         </h1>
         {/* Quadrados de cima */}
-        <div className="services-upper w-full flex justify-around mb-[40px] flex-wrap">
+        <div className="services-upper w-full flex justify-around mb-[40px] flex-wrap gap-[20px]">
           {/* Área um quadrado */}
           <div className="service-area bg-[#EEEEEE] drop-shadow-lg w-[288px] h-[218px] flex justify-center group cursor-pointer relative overflow-hidden">
             {/* Div de cima */}

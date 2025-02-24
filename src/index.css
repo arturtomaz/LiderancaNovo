@@ -274,10 +274,23 @@ html body {
     font-size: 50px;
   }
   .services-upper {
-    margin-bottom: 30px;
   }
   .service-area {
-    scale: 0.9;
+    width: 250px;
+    height: 260px;
+  }
+  .enlarge-square {
+
+    & img {
+      width: 100px;
+    }
+    & h1 {
+      font-size: 25px;
+      line-height: 30px;
+    }
+    & p {
+      font-size: 20px;
+    }
   }
   .footer {
     justify-content: start;
